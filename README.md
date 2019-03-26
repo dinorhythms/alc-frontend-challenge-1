@@ -9,7 +9,7 @@
 
 Clone the project
 
-    git clone reponame && frontend-challenge
+    git clone https://github.com/lintdeveloper/alc-frontend-challenge-1.git && alc-frontend-challenge-1
 
 Install the dependencies
 
@@ -21,7 +21,7 @@ Start the server
 
 Visit http://localhost:8080
 
-**Please set up your working environment before the interview (working server, node, npm dependencies), so we don't spend time installing anything.**
+**Please set up your working environment before the commencing the project**
 
 ## Project description
 
