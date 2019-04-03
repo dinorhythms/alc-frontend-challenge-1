@@ -1,57 +1,68 @@
-# alc-frontend-challenge-1
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Prerequisites
-- Git
-- npm
-- Parcel or yarn and webpack
+## Available Scripts
 
-## Installation
+In the project directory, you can run:
 
-Clone the project
+### `npm start`
 
-    git clone https://github.com/lintdeveloper/alc-frontend-challenge-1.git && alc-frontend-challenge-1
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Install the dependencies
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-    npm install
+### `npm test`
 
-Start the server 
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-    node server.js
+### `npm run build`
 
-Visit http://localhost:8080
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**Please set up your working environment before the commencing the project**
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-## Project description
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-We want to develop a small web app that allows users to order pizza.
+### `npm run eject`
 
-First of all we'll display the list of pizzas with ingredients and prices. Data will be loaded from `server/pizzas.json`.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-When the user chooses something from the list the order summary will update dynamically.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-There will be a button to confirm the order. An fetch on 
-`server/order.json` and the result will be displayed as a message like this: "Your order will be delivered in x minutes".
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You can use any library/framework/plugin you want.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Please use some template library ([http://handlebarsjs.com/](http://handlebarsjs.com/), [http://mustache.github.io/](http://mustache.github.io/), ...).
+## Learn More
 
-The application must be single page and JS-based using AngularJS (1.x is fine if not familiar with 2.x), ReactJS, Vuejs . That means that I load just one html file, if you want to add some navigation you have to implement it via JS.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-If you can display discounts for pizzas it's a plus.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Evaluation
+### Code Splitting
 
-Our goal is to find answers to those questions:
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-- Do you understand the JavaScript language and more in general web technologies?
-- Can you judge which library/framework is the best fit for a job and use it correctly?
-- Can you design interfaces that are clear and easy to use?
-- Do you master your working environment?
+### Analyzing the Bundle Size
 
-Due to the limited time consider the followings:
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-- It is NOT important to have a fully functional application at the end.
-- We'll develop just for the latest version of Google Chrome.
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
